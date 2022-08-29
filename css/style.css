@@ -1,0 +1,398 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+.info a{
+    text-decoration:none;
+    color:black!important;
+    padding:0px 5px;
+    font-weight: 600;
+}
+.info{
+    position:relative;
+}
+.reg{
+    position:relative;
+    top: 7px;
+
+}
+.border{
+    border:1px solid black;
+}
+.icon li{
+    list-style-type: none;
+    display: inline-block;
+    padding:0px 6px;
+}
+.icon li a{
+    text-decoration:none;
+    color:black;
+}
+.icon{
+    margin-top: 6px;
+    margin-bottom:0px;
+}
+.bg-yel{
+    background-color:#ffc000;
+}
+.rr{
+    padding: 5px 0px 10px 0px;
+}
+.font{
+    font-family: 'Amatic SC', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Radio Canada', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+}
+.follow{
+    font-weight: 600;
+    cursor:pointer;
+}
+.navi ul li{
+    list-style-type: none;
+    display: inline;
+    padding:0px 15px;
+}
+.navi{
+    margin-top: 5px;
+}
+.navi ul li a{
+    text-decoration: none;
+    color:white;
+}
+.bg-br{
+    background-color: #242424;
+}
+.nv{
+    margin-top: 5px!important;
+}
+.slider-image {
+    display:none;
+    position: relative;
+    filter: brightness(0.2);
+
+}
+.cCenter h2{
+    font-size: 50px;
+    color:white;
+}
+.cCenter{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+}
+.slider-image img{
+    width:100%;
+}
+.slider{
+    position:relative;
+}
+.ico{
+    position:absolute;
+    top:50%;
+    
+}
+.right{
+    right:10px;
+}
+.left{
+    left:10px;
+}
+.ico i{
+    padding: 13px 13px;
+    border-radius: 26px;
+    border: 2px solid white;
+    cursor: pointer;
+    color:white;
+    transition:0.5s;
+}
+
+.ico i:hover {
+    background-color:white;
+    color:black;
+    transition:0.5s;
+}
+.discover a{
+    text-decoration:none;
+    color:black;
+    
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight:700;
+    transform: skew(25deg);
+   
+}
+
+ .button{position: relative;
+    box-shadow: 2px 2px 7px -3px;
+color:black;
+transform: skew(-23deg);
+}   
+.button a {
+    color:black!important;
+}
+   
+.btn ::after{
+    content: "";
+    width: 104%;
+    height: 3px;
+    background-color: #ffc000;
+    left: -16px;
+    bottom: -7px;
+    position: absolute;
+    transform: scale(1.1);
+    transition: 0.9s;
+}
+
+.styling img{
+    width:100%;
+    display:block;
+}
+.line1{
+    width: 35px;
+    height: 5px;
+    background-color: #f1ebeb;
+    margin: 4px 0px;
+    transition: 0.4s;
+    display: block;
+    
+}
+
+.line2{
+    width: 35px;
+    height: 5px;
+    background-color: #f1ebeb;
+    margin: 4px 0px;
+    transition: 0.4s;
+    display: block;
+}
+
+.line3{
+    width: 35px;
+    height: 5px;
+    background-color: #f1ebeb;
+    margin: 4px 0px;
+    transition: 0.4s;
+    display: block;
+}
+.three-line{
+    cursor:pointer;
+    position: relative;
+    display:none;
+}
+.change .line1{transform: rotate(-45deg) translate(-9px, 8px);}
+.change .line2{opacity:0;}
+.change .line3{transform: rotate(45deg) translate(-4px, -4px);}
+
+.car{
+    padding:11px;
+    text-align: center;
+    cursor:pointer;
+    transition: 0.9s;
+}
+
+.car h1{border-bottom:1px solid black;}
+
+.cars li{
+    list-style-type: none;
+    text-align: left;
+    font-weight: 700;
+    line-height:50px;
+}
+.cars li span{
+    padding: 0px 0px 0px 160px;
+    color:gray;
+}
+.card:hover {
+    box-shadow: 2px 2px 10px 2px #00000036;
+    transition: 1s;
+}
+.img-gallery img{
+    margin:5px;
+    width: 100%;
+    max-height: 300px;
+    display: block;
+    
+    cursor:pointer;
+}
+.img-gallery{
+    overflow: hidden;
+    
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: 1s;
+    
+    
+}
+
+.gh li{
+    font-size:22px;
+}
+.gh li a{
+    font-size:22px;
+}
+.toy tr td{
+    padding: 0px 0px 0px 140px !important;
+    line-height: 35px;
+}
+.toy tr th{
+    font-weight: 500;
+}
+.links li {
+    list-style-type: none;
+    line-height: 45px;
+
+}
+.links li a{
+    color:white;
+    text-decoration: none;
+    
+}
+.footer{
+    background-color:#242424;
+}
+.doors tr th{
+    text-align: left;
+}
+.doors{
+    line-height: 50px;
+}
+.doors tr td{
+    color:gray;
+    font-weight:bold;
+}
+.img-gallery:hover img {
+    transform: scale(1.1);
+    transition:0.6s;
+}
+.fade1{animation-name:fade;
+    animation-duration:1.5s;}
+	
+	@keyframes fade{
+    from{
+        opacity:0.4;
+        transition:0.5s;
+    }
+    to{
+        opacity:1;
+        transition:0.5s;
+    }
+}
+
+.bff{
+    
+    padding: 10px 0px;
+    transform: skewX(-23deg);
+    margin: 7px 44px;
+    background-color:#242424;
+    z-index:5;
+    box-shadow: 1px 1px 3px 0px;
+}
+
+.bff a{
+    color:black;
+    text-decoration:none;
+    transition: 0.9s;
+    font-weight:bold;
+    transform: skewX(22deg);
+    display:inline-block;
+    
+}
+.box{
+    position:relative;
+    overflow:hidden;
+}
+.bff:before{
+    content:"";
+    background-color:#ffc000;
+    position:absolute;
+    width:100%;
+    height:100px;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    transition: 0.9s;
+    z-index:-1;
+}
+
+.car:hover .bff:before{
+    height:0px; 
+    
+}
+.car:hover a{
+    color:white!important;
+    transition: 0.9s;
+}
+.mainn li a{
+    text-decoration:none;
+    color:white;
+    display: inline-block;
+    padding: 10px 60px 10px 60px;
+    transform: skewX(23deg);
+}
+.mainn li{
+    list-style-type: none;
+    margin: 5px;
+    background-color:#ffc000;
+}
+.mainn{
+    display:inline-block;
+    transform: skewX(-23deg);
+    background-color:#242424;
+    position: absolute;
+    right: 85px;
+    top: 17px;
+    opacity: 0;
+    visibility:visible;
+    left: -408px;
+    box-shadow: 2px 2px 2px 2px;
+    transition: 0.9s;
+}
+.mainn li:hover{
+    background-color:#ffc000;
+    transition:0.9s;
+    transform:scale(1.1);
+}
+.men{position:relative;
+}
+
+@media (max-width:414px){
+    .hh{
+        display: none;
+    }
+    .nv{
+        display: none; 
+    }
+    .three-line{
+        display: block;
+        position: absolute;
+    top: 6px;
+    right: 8px
+    }
+    #nav-main{
+        position:relative;
+    }
+    .logo h3{
+        font-size:20px;
+    }
+    .styling img{margin:11px 0px}
+    .card{
+        margin: 15px 0px;
+    }
+    .discover button{
+        margin: 0px 0px 0px 55px;
+    }
+    
+}
